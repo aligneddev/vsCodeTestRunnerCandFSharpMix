@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exceptionBreaksTestRunner", "program\exceptionBreaksTestRunner.csproj", "{B2473C3F-2DE3-4E39-95E2-951EA99A8AB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tests", "tests\tests.csproj", "{04983A06-26D4-42F6-9BDB-6F62D4A6349A}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "fsharpTests", "fsharpTests\fsharpTests.fsproj", "{055350AA-F723-40AA-895D-B8DA51F496BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2473C3F-2DE3-4E39-95E2-951EA99A8AB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2473C3F-2DE3-4E39-95E2-951EA99A8AB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2473C3F-2DE3-4E39-95E2-951EA99A8AB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2473C3F-2DE3-4E39-95E2-951EA99A8AB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04983A06-26D4-42F6-9BDB-6F62D4A6349A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04983A06-26D4-42F6-9BDB-6F62D4A6349A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04983A06-26D4-42F6-9BDB-6F62D4A6349A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04983A06-26D4-42F6-9BDB-6F62D4A6349A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{055350AA-F723-40AA-895D-B8DA51F496BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055350AA-F723-40AA-895D-B8DA51F496BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055350AA-F723-40AA-895D-B8DA51F496BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055350AA-F723-40AA-895D-B8DA51F496BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
